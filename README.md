@@ -182,8 +182,8 @@ openOMSI is made in free time. If you enjoy it and want to help it along, you ca
 coffee or support it on Ko-fi - thank you!
 
 <p>
-  <a href="https://buymeacoffee.com/usonskyyy"><img alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48"></a>
-  <a href="https://ko-fi.com/usonance"><img alt="Support me on Ko-fi" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" height="48"></a>
+  <a href="https://buymeacoffee.com/"><img alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48"></a>
+  <a href="https://ko-fi.com/"><img alt="Support me on Ko-fi" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" height="48"></a>
 </p>
 
 ## License
