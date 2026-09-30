@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="ССЫЛКА_НА_ЧАТ"><img alt="Чат" src="https://img.shields.io/badge/Чат-Общение-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <a href="ССЫЛКА_НА_КАНАЛ"><img alt="Канал" src="https://img.shields.io/badge/Канал-Новости-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="https://t.me/reOMSIchat"><img alt="Чат" src="https://img.shields.io/badge/Чат-Общение-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="https://t.me/reOMSI"><img alt="Канал" src="https://img.shields.io/badge/Канал-Новости-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/turbo-devv/openOMSI?style=for-the-badge"></a>
 </p>
 
