@@ -1,34 +1,20 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logos/openomsi-wordmark-light.svg">
-    <img alt="openOMSI" src="assets/logos/openomsi-wordmark-dark.svg" width="420">
-  </picture>
+  <img width="1313" height="637" alt="Frame 82" src="https://github.com/user-attachments/assets/193d4d7f-0e32-40e9-bdfa-190814f2be36" />
+  
 </p>
 
 <p align="center">
-  <a href="https://github.com/turbo-devv/openOMSI/releases/latest"><img alt="Version" src="https://img.shields.io/github/v/release/turbo-devv/openOMSI?label=version&color=f47f30&style=for-the-badge"></a>
-  <a href="https://github.com/turbo-devv/openOMSI/actions/workflows/release.yml"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/turbo-devv/openOMSI/release.yml?branch=main&style=for-the-badge&label=build"></a>
-  <a href="https://turbo-devv.github.io/openOMSI/"><img alt="Docs" src="https://img.shields.io/badge/docs-website-2d3138?style=for-the-badge"></a>
-  <a href="https://discord.gg/VG2EKVafYG"><img alt="Discord" src="https://img.shields.io/badge/discord-join%20us-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
-  <a href="https://buymeacoffee.com/usonskyyy"><img alt="Buy me a coffee" src="https://img.shields.io/badge/buy%20me%20a%20coffee-support-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=black"></a>
-  <a href="https://ko-fi.com/usonance"><img alt="Ko-fi" src="https://img.shields.io/badge/ko--fi-support-29abe0?style=for-the-badge&logo=kofi&logoColor=white"></a>
+  <a href="ССЫЛКА_НА_ЧАТ"><img alt="Чат" src="https://img.shields.io/badge/Чат-Общение-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="ССЫЛКА_НА_КАНАЛ"><img alt="Канал" src="https://img.shields.io/badge/Канал-Новости-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/turbo-devv/openOMSI?style=for-the-badge"></a>
 </p>
 
-> [!WARNING]
-> **Early release. Expect bugs.** openOMSI is in an early stage of development: things may be
-> missing, broken or change between versions. Please report problems in
-> [Issues](https://github.com/turbo-devv/openOMSI/issues) or on our
-> [Discord server](https://discord.gg/VG2EKVafYG).
 
-**openOMSI** is a from-scratch recreation of the bus simulator **OMSI 2**, written in Rust:
-64-bit, multithreaded, with a modern renderer (Metal / Vulkan / DirectX 12 through wgpu),
-and fully compatible with the existing maps, buses, scenery and mods.
+is a fork of openOMSI, a built-from-scratch version of the OMSI 2 bus simulator written in Rust: 64-bit, multithreaded, with a modern renderer (Metal/Vulkan/DirectX 12 via wgpu) and fully compatible with existing maps, buses, landscapes, and mods.
 
 > [!IMPORTANT]
 > **openOMSI needs an original copy of OMSI 2.** It contains no game content of its own: it
 > plays on the maps, vehicles and other files of an installed OMSI 2 and **will not start without one**.
-
 
 ## Download
 
@@ -138,55 +124,9 @@ pages live in [`docs/`](docs):
 ## Building from source
 
 ```sh
-git clone https://github.com/turbo-devv/openOMSI.git && cd openOMSI
+git clone [https://github.com/ВАШ_НИК/openOMSI.git](https://github.com/ВАШ_НИК/openOMSI.git) && cd openOMSI
 scripts/build-macos.sh        # macOS   → dist/macos/openOMSI.app
 scripts\build-windows.cmd     # Windows → dist\windows\openomsi.exe
 scripts/build-linux.sh        # Linux   → dist/linux/openomsi
 scripts/build-android.sh      # Android → dist/android/openOMSI-<version>.apk
 scripts/build-server.sh       # server  → dist/server
-```
-
-Needs [Rust stable](https://rustup.rs) (1.85+) and the platform's C toolchain; details in
-[docs/BUILDING.md](docs/BUILDING.md).
-
-## Repository layout
-
-```
-openOMSI/
-├── VERSION            MAJOR.MINOR of the next release (edited by hand)
-├── crates/            the engine, one crate per subsystem of the original
-│   ├── omsi-app/        the game binary `openomsi` (window, launcher, HUD, server mode)
-│   ├── omsi-launcher-core/  launcher data side + `openomsi-launcher` terminal tool
-│   ├── omsi-cfg/        text files, code pages, virtual file system, content roots
-│   ├── omsi-script/     the OMSI script language (compiler + VM)
-│   ├── omsi-o3d/ omsi-model/ omsi-texture/ omsi-geometry/   meshes, models, textures, splines
-│   ├── omsi-map/ omsi-scenery/ omsi-timetable/ omsi-vehicle/ omsi-content/   content formats
-│   ├── omsi-sim/        vehicles, AI traffic, people, physics
-│   ├── omsi-render/     the wgpu renderer
-│   ├── omsi-audio/ omsi-net/ omsi-plugin/ omsi-ui/   sound, multiplayer, plugins, UI toolkit
-├── tools/             developer tools: omsi-check (format coverage)
-├── scripts/           build scripts for every platform, version.sh, packaging files
-├── assets/            fonts, Material icons, app icons (assets/icons/app), logos (assets/logos)
-├── docs/              documentation (also published as the website)
-├── site/              the GitHub Pages website
-└── .github/workflows/ CI: release builds for every commit, the website
-```
-
-## Contributing
-
-Issues and pull requests are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Support
-
-openOMSI is made in free time. If you enjoy it and want to help it along, you can buy me a
-coffee or support it on Ko-fi - thank you!
-
-<p>
-  <a href="https://buymeacoffee.com/"><img alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48"></a>
-  <a href="https://ko-fi.com/"><img alt="Support me on Ko-fi" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" height="48"></a>
-</p>
-
-## License
-
-openOMSI is released under the [MIT License](LICENSE). OMSI and OMSI 2 are trademarks of their
-respective owners. openOMSI is an independent project and is not affiliated with them.
